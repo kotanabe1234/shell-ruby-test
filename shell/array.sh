@@ -21,6 +21,7 @@ fruits+=(kiwi orange)
 echo ${fruits[@]}
 
 #for文を使用
+
 for fruit in ${fruits[@]}
 do
   echo "果物：${fruit}"

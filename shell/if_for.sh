@@ -9,10 +9,10 @@ if [[ -z $name ]]; then
 fi
 
 if [[ $name == 'tanaka' ]]; then
-for ((i=1; i<=10; i++))
-do
-  echo $name
-done
+  for ((i=1; i<=10; i++))
+  do
+    echo $name
+  done
 else
   echo '名前が一致しませんでした'
 fi

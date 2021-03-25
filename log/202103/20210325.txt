@@ -1,0 +1,51 @@
+-作業内容
+・[#shellシート]シェルスクリプトの作成（echoコマンドを利用する）
+・[#shellシート]シェルスクリプトの作成（if文で数値を比較する）
+・[#shellシート]シェルスクリプトの作成（if文で文字列の比較をする）
+・[#shellシート]シェルスクリプトの作成（for分で繰り返し処理をする）
+・[#shellシート]シェルスクリプトの作成（if文とfor文を利用した処理をする）
+・[#shellシート]シェルスクリプトの作成（配列を利用する）
+・[#shellシート]シェルスクリプトの作成（今まで勉強したlinux commandを組み合わせたスクリプト作成）
+・[#shellシート]シェルスクリプトの作成（今まで勉強した以外のlinux commandを組み合わせたスクリプトを作成）
+・[#shellシート]シェルスクリプトの作成（シェルスクリプトにパラメータを渡して出力）
+・[#shellシート]シェルスクリプトの作成（任意の環境変数を設定）
+・[#shellシート]シェルスクリプトの作成（標準入力を出力する）
+・日報の作成
+
+-予定時間(見積もり）
+合計：5h
+・前回の修正（0.5h）
+・シェルスクリプトの作成（今まで勉強したlinux commandを組み合わせたスクリプト作成）(0.5h)
+・シェルスクリプトの作成（今まで勉強した以外のlinux commandを組み合わせたスクリプトを作成）(0.5h)
+・シェルスクリプトの作成（シェルスクリプトにパラメータを渡して出力）(1h)
+・シェルスクリプトの作成（任意の環境変数を設定）(1h)
+・シェルスクリプトの作成（標準入力を出力する）(1h)
+・日報の作成(0.5h)
+
+-実績時間(実際にかかった時間）
+合計：5.2h
+・前回の修正（0.6h）
+・シェルスクリプトの作成（今まで勉強したlinux commandを組み合わせたスクリプト作成）(0.4h)
+・シェルスクリプトの作成（今まで勉強した以外のlinux commandを組み合わせたスクリプトを作成）(0.7h)
+・シェルスクリプトの作成（シェルスクリプトにパラメータを渡して出力）(1h)
+・シェルスクリプトの作成（任意の環境変数を設定）(1h)
+・シェルスクリプトの作成（標準入力を出力する）(1h)
+・日報の作成(0.5h)
+
+-質問・感想
+・前回までブランチを作成する際にスプレッドシートの行番号を含めてしまっていたので作成する際は気をつける。
+・2スペースを意識していくのと余計なインデントはいれないよう注意する。
+・ファイル名を冗長にしないこと。
+・ググる時間が多く手を動かす時間が今回は少なかったので反省
+-PR
+https://github.com/kotanabe1234/bootcamp/pull/6 (修正）
+https://github.com/kotanabe1234/bootcamp/pull/7 (修正）
+https://github.com/kotanabe1234/bootcamp/pull/8 (修正）
+https://github.com/kotanabe1234/bootcamp/pull/9 (修正）
+https://github.com/kotanabe1234/bootcamp/pull/10 (修正）
+https://github.com/kotanabe1234/bootcamp/pull/11 (修正）
+https://github.com/kotanabe1234/bootcamp/pull/13 (新規)
+https://github.com/kotanabe1234/bootcamp/pull/14 (新規)
+https://github.com/kotanabe1234/bootcamp/pull/15 (新規)
+https://github.com/kotanabe1234/bootcamp/pull/16 (新規)
+https://github.com/kotanabe1234/bootcamp/pull/17 (新規)

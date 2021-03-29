@@ -5,7 +5,7 @@
 #1~4を繰り返し出力
 
 echo '開始'
-for i in 1 2 3 4
+for i in $(seq 1 4)
 do
   echo $i
 done
@@ -14,7 +14,7 @@ echo '終了'
 #こんにちはを繰り返し出力
 
 echo '開始'
-for i in {1..4};
+for i in $(seq 1 4)
 do
   echo 'こんにちは'
 done
@@ -23,7 +23,7 @@ echo '終了'
 #はじめましてを繰り返し出力
 
 echo '開始'
-for ((i=1; i<=8; i++))
+for i in $(seq 1 8)
 do
   echo 'はじめまして'
 done
@@ -42,7 +42,7 @@ echo '終了'
 #breakを利用した繰り返し処理
 
 echo '開始'
-for ((i=1; i<=10; i++))
+for i in $(seq 1 10)
 do
   echo "こんばんは"
   if (($i == 3)); then

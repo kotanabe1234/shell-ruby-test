@@ -3,7 +3,7 @@
 
 for path in "$@"
 do
-  absolute_path=$(cd $(dirname $path); pwd)/$(basename $path)
+  absolute_path="/Users/watanabe480/bootcamp/shell/path.sh"
   if [[ $path == $absolute_path ]]; then
     echo '絶対パスです'
   else

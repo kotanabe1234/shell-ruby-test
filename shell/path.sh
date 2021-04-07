@@ -3,8 +3,8 @@
 
 for path in "$@"
 do
-  absolute_path="/Users/watanabe480/bootcamp/shell/path.sh"
-  if [[ $path == $absolute_path ]]; then
+  absolute_path="^/"
+  if [[ $path =~ $absolute_path ]]; then
     echo '絶対パスです'
   else
     echo '相対パスです'

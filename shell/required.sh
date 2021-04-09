@@ -15,6 +15,14 @@ curl -v https://viral-community.com/security/curl-8263/
 curl -X POST "http://httpbin.org/post"
 curl -X POST "http://httpbin.org/post" -H "Host: hogehoge.org"
 
+#top
+top
+#オプションを使用
+top -h
+top -n 6
+top -pid 633
+top -S
+
 #grep
 grep if if_for.sh
 #オプションを使用

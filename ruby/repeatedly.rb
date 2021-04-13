@@ -16,7 +16,7 @@ end
   puts city
 end
 
-{りんご:100, みかん:200}.each do |fruits, price|
+{ りんご: 100, みかん: 200 }.each do |fruits, price|
   puts "#{fruits}:#{price}円"
 end
 
@@ -25,7 +25,7 @@ end
   puts 'ありがとうございます'
 end
 
-8.times { puts 'こんばんは'}
+8.times { puts 'こんばんは' }
 
 #upto
 2.upto(10) do |i|

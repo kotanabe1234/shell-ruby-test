@@ -13,11 +13,11 @@ name("yamada")
 name "sato"
 
 def name(name = "tanaka")
-  return "#{name}"
+  "#{name}"
 end
 puts name
 
 def sum(number1, number2)
-  return number1 + number2
+  number1 + number2
 end
 puts sum(2, 3)

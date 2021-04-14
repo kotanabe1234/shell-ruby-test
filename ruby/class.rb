@@ -1,12 +1,12 @@
 #クラス
 class Foo
-  def setColor()
+  def set_color()
     puts 'クラスを使用しています'
   end
 end
 
 color = Foo.new()
-color.setColor
+color.set_color
 
 #インスタンス,アクセサ,クラス変数,定数
 class User
@@ -22,7 +22,7 @@ class User
     @name = name
   end
 
-  def setName()
+  def set_name()
     return "#{@name}"
   end
 
@@ -32,7 +32,7 @@ class User
 end
 
 user = User.new('mada')
-puts user.setName
+puts user.set_name
 
 #アクセサ
 user.name = 'tanaka'
